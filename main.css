@@ -111,7 +111,7 @@ h2.programas {
 .prestashop  { width:60%;  animation:prestashop 2s ease-out; }
 .joomla      { width:40%;  animation:joomla 2s ease-out;     }
 .blogger     { width:70%;  animation:blogger 2s ease-out;    }
-.tridion      { width:60%;  animation:tridion 2s ease-out;     }
+.tridion     { width:60%;  animation:tridion 2s ease-out;    }
 
 /*programas*/
 .dreamweaver { width:90%;  animation:dreamweaver 2s ease-out;}
@@ -124,25 +124,25 @@ h2.programas {
 @keyframes titulo      { 0% { opacity:0; } 100% { opacity:1; }  }
 
 /*programacion*/
-@keyframes html        { 0% { width:0px; } 100% { width:90%; }  }
-@keyframes css         { 0% { width:0px; } 100% { width:95%; }  }
-@keyframes php         { 0% { width:0px; } 100% { width:70%; }  }
+@keyframes html        { 0% { width:0px; } 100% { width:95%; }  }
+@keyframes css         { 0% { width:0px; } 100% { width:70%; }  }
+@keyframes php         { 0% { width:0px; } 100% { width:50%; }  }
 @keyframes javascript  { 0% { width:0px; } 100% { width:50%; }  }
 @keyframes jquery      { 0% { width:0px; } 100% { width:30%; }  }
 
 /*plataformas*/
-@keyframes wordpress   { 0% { width:0px; } 100% { width:80%; }  }
-@keyframes prestashop  { 0% { width:0px; } 100% { width:60%; }  }
+@keyframes wordpress   { 0% { width:0px; } 100% { width:50%; }  }
+@keyframes prestashop  { 0% { width:0px; } 100% { width:90%; }  }
 @keyframes joomla      { 0% { width:0px; } 100% { width:40%; }  }
-@keyframes blogger     { 0% { width:0px; } 100% { width:70%; }  }
-@keyframes tridion      { 0% { width:0px; } 100% { width:60%; }  }
+@keyframes blogger     { 0% { width:0px; } 100% { width:90%; }  }
+@keyframes tridion      { 0% { width:0px; } 100% { width:90%; }  }
 
 /*programas*/
 @keyframes dreamweaver { 0% { width:0px; } 100% { width:90%; }  }
-@keyframes illustrator { 0% { width:0px; } 100% { width:30%; }  }
+@keyframes illustrator { 0% { width:0px; } 100% { width:75%; }  }
 @keyframes photoshop   { 0% { width:0px; } 100% { width:70%; }  }
-@keyframes premiere    { 0% { width:0px; } 100% { width:50%; }  }
-@keyframes flash       { 0% { width:0px; } 100% { width:60%; }  }
+@keyframes premiere    { 0% { width:0px; } 100% { width:75%; }  }
+@keyframes flash       { 0% { width:0px; } 100% { width:85%; }  }
 
 /*media queries*/
 @media (max-width: 1200px){
