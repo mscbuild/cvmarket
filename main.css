@@ -104,7 +104,7 @@ h2.programas {
 .css         { width:70%;  animation:css 2s ease-out;        }
 .php         { width:50%;  animation:php 2s ease-out;        }
 .javascript  { width:50%;  animation:javascript 2s ease-out; }
-.jquery      { width:30%;  animation:jquery 2s ease-out;     }
+.jquery      { width:45%;  animation:jquery 2s ease-out;     }
 
 /*plataformas*/
 .wordpress   { width:80%;  animation:wordpress 2s ease-out;  }
@@ -118,7 +118,7 @@ h2.programas {
 .illustrator { width:90%;  animation:illustrator 2s ease-out;}
 .photoshop   { width:70%;  animation:photoshop 2s ease-out;  }
 .premiere    { width:80%;  animation:premiere 2s ease-out;   }
-.flash       { width:85%;  animation:flash 2s ease-out;      }
+.flash       { width:95%;  animation:flash 2s ease-out;      }
 
 
 @keyframes titulo      { 0% { opacity:0; } 100% { opacity:1; }  }
@@ -128,7 +128,7 @@ h2.programas {
 @keyframes css         { 0% { width:0px; } 100% { width:70%; }  }
 @keyframes php         { 0% { width:0px; } 100% { width:50%; }  }
 @keyframes javascript  { 0% { width:0px; } 100% { width:50%; }  }
-@keyframes jquery      { 0% { width:0px; } 100% { width:30%; }  }
+@keyframes jquery      { 0% { width:0px; } 100% { width:45%; }  }
 
 /*plataformas*/
 @keyframes wordpress   { 0% { width:0px; } 100% { width:80%; }  }
@@ -142,7 +142,7 @@ h2.programas {
 @keyframes illustrator { 0% { width:0px; } 100% { width:90%; }  }
 @keyframes photoshop   { 0% { width:0px; } 100% { width:70%; }  }
 @keyframes premiere    { 0% { width:0px; } 100% { width:80%; }  }
-@keyframes flash       { 0% { width:0px; } 100% { width:85%; }  }
+@keyframes flash       { 0% { width:0px; } 100% { width:95%; }  }
 
 /*media queries*/
 @media (max-width: 1200px){
