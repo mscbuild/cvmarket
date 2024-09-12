@@ -1,0 +1,45 @@
+ section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.devices {
+  position: relative;
+  width: 1000px;
+}
+.devices img {
+  width: 100%;
+}
+.devices .laptops {
+  position: relative;
+}
+.devices .laptops__bg {
+  position: relative;
+  z-index: 10;
+}
+.devices .laptops__img {
+  padding-top: 6%;
+  padding-left: 11.8%;
+  padding-right: 11.7%;
+  position: absolute;
+  top: 0;
+  z-index: 5;
+}
+.devices .phones {
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+  width: 20%;
+}
+.devices .phones__bg {
+  position: relative;
+  z-index: 30;
+}
+.devices .phones__img {
+  padding: 22% 6%;
+  position: absolute;
+  top: 0;
+  z-index: 20;
+	}
+
