@@ -6,10 +6,10 @@ body {
 
 body {
   text-align: right;
-  color: #828282;
+  color: #fff;
   font-family: 'Raleway', sans-serif;
   font-size:15px;
-  background: #fff url("backround.jpeg") center no-repeat;
+   background: #999 url("backround.jpeg") center no-repeat;
   background-size: cover;
   overflow: hidden;
   padding-right: 50px
