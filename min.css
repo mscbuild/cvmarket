@@ -1,4 +1,10 @@
- section {
+body {
+	background: #121212;
+	font: 12px normal Arial;
+  font-family: "Raleway",Arial,Helvetica,sans-serif;
+	color:#fff;
+}
+section {
   width: 100%;
   display: flex;
   justify-content: center;
