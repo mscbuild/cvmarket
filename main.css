@@ -108,17 +108,17 @@ h2.programas {
 
 /*plataformas*/
 .wordpress   { width:80%;  animation:wordpress 2s ease-out;  }
-.prestashop  { width:60%;  animation:prestashop 2s ease-out; }
-.joomla      { width:40%;  animation:joomla 2s ease-out;     }
-.blogger     { width:70%;  animation:blogger 2s ease-out;    }
-.tridion     { width:60%;  animation:tridion 2s ease-out;    }
+.github      { width:60%;  animation:prestashop 2s ease-out; }
+.wix         { width:40%;  animation:joomla 2s ease-out;     }
+.facebook    { width:70%;  animation:blogger 2s ease-out;    }
+.node        { width:60%;  animation:tridion 2s ease-out;    }
 
 /*programas*/
 .dreamweaver { width:90%;  animation:dreamweaver 2s ease-out;}
-.illustrator { width:30%;  animation:illustrator 2s ease-out;}
+.canva       { width:30%;  animation:illustrator 2s ease-out;}
 .photoshop   { width:70%;  animation:photoshop 2s ease-out;  }
-.premiere    { width:50%;  animation:premiere 2s ease-out;   }
-.flash       { width:60%;  animation:flash 2s ease-out;      }
+.mavavi video { width:50%;  animation:premiere 2s ease-out;   }
+.notepd      { width:60%;  animation:flash 2s ease-out;      }
 
 
 @keyframes titulo      { 0% { opacity:0; } 100% { opacity:1; }  }
@@ -132,17 +132,17 @@ h2.programas {
 
 /*plataformas*/
 @keyframes wordpress   { 0% { width:0px; } 100% { width:50%; }  }
-@keyframes prestashop  { 0% { width:0px; } 100% { width:90%; }  }
-@keyframes joomla      { 0% { width:0px; } 100% { width:40%; }  }
-@keyframes blogger     { 0% { width:0px; } 100% { width:90%; }  }
-@keyframes tridion      { 0% { width:0px; } 100% { width:90%; }  }
+@keyframes github       { 0% { width:0px; } 100% { width:90%; }  }
+@keyframes wix         { 0% { width:0px; } 100% { width:40%; }  }
+@keyframes facebook    { 0% { width:0px; } 100% { width:90%; }  }
+@keyframes node        { 0% { width:0px; } 100% { width:90%; }  }
 
 /*programas*/
 @keyframes dreamweaver { 0% { width:0px; } 100% { width:90%; }  }
-@keyframes illustrator { 0% { width:0px; } 100% { width:75%; }  }
+@keyframes canva       { 0% { width:0px; } 100% { width:75%; }  }
 @keyframes photoshop   { 0% { width:0px; } 100% { width:70%; }  }
-@keyframes premiere    { 0% { width:0px; } 100% { width:75%; }  }
-@keyframes flash       { 0% { width:0px; } 100% { width:85%; }  }
+@keyframes movavi video { 0% { width:0px; } 100% { width:75%; }  }
+@keyframes notepd       { 0% { width:0px; } 100% { width:85%; }  }
 
 /*media queries*/
 @media (max-width: 1200px){
