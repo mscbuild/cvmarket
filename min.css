@@ -50,4 +50,15 @@ section {
   top: 0;
   z-index: 20;
 	}
-
+footer{
+  font-size: 0.7em;  
+  text-align: center;  
+  color: #666;  background:rgba(0,0,0,0.4); 
+  width: 100vw;  
+  position: absolute; 
+  bottom: 0px;  
+  padding:0.8em 0;
+}
+.white{
+  color:#333
+}
