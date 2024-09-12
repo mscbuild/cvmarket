@@ -1,8 +1,10 @@
 body {
-	background: #121212;
-	font: 12px normal Arial;
+background: #121212;
+ font: 12px normal Arial;
   font-family: "Raleway",Arial,Helvetica,sans-serif;
-	color:#fff;
+  color:#fff;
+  text-decoration: none;
+  transition: 0.5s;
 }
 section {
   width: 100%;
