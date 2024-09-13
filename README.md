@@ -13,3 +13,4 @@ Project is created with:
 * HTML
 * CSS
 * JavaScript
+* Bootstrap
