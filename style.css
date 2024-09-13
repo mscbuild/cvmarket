@@ -13,13 +13,13 @@ body {
   background-size: cover;
   overflow: hidden;
   padding-right: 50px
-}
-header {
+} 
+ header {
   min-height: 100vh;
   position: relative;
 }
 header .container {
-  max-width: 1200px;
+  max-width: 1368px;
   margin: 0 auto;
   padding: 1rem 2rem;
 }
@@ -34,7 +34,7 @@ header .container .navbar .logo {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
-  font-weight: 450;
+  font-weight: 700;
 }
 header .container .navbar .nav-links {
   display: flex;
@@ -64,7 +64,6 @@ header .container .navbar .nav-links li a::after {
 header .container .navbar .nav-links li a:hover::after {
   width: 100%;
 }
- 
   body:before {
   content: "";
   position: absolute;
