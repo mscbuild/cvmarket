@@ -64,23 +64,7 @@ header .container .navbar .nav-links li a::after {
 header .container .navbar .nav-links li a:hover::after {
   width: 100%;
 }
-@media (max-width: 850px) {
-  header .container .navbar .nav-links {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #fff;
-    height: 100%;
-    width: 225px;
-    margin: 0;
-    padding: 0;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    transform: translateX(-100%);
-    transition: 0.4s ease all;
-    z-index: 10;
-  }
+ 
   body:before {
   content: "";
   position: absolute;
