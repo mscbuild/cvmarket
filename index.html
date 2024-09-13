@@ -17,17 +17,6 @@
 <title>Welcome</title>
 </head>
 <body>
-  <div class="navbar" id="navbar">
-      <div class="logo">
-        <a href="#" style="font-size: 20px;">Landing Stars</a>
-      </div>
-      <div class="nav-links">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
-      </div>
-    </div>
 <h1>Welcome</h1>
 <i>Web Developer & UX/UI Designer</i>
 <a href="gallery.html" class="fa fa-briefcase"></a>
@@ -36,62 +25,6 @@
 <a href="#" class="fa fa-whatsapp"></a>
 <a href="https://paypal.com" class="fa fa-paypal"></a> 
 <footer>  <a href="#" onClick="document.body.classList.toggle('white')">White layout</a>  | Follow me on  <a href="https://github.com/" target="_b">HTML</a> each week</footer>
- <script id="rendered-js" >
-window.onscroll = function () {stickNavbar();};
-
-const navbar = document.getElementById("navbar");
-const sticky = navbar.offsetTop;
-
-function stickNavbar() {
-  if (window.pageYOffset > sticky) {
-    navbar.classList.add("sticky");
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-
-const particleContainer = document.querySelector('.particles');
-const starBackground = document.querySelector('.star-background');
-
-for (let i = 0; i < 100; i++) {if (window.CP.shouldStopExecution(0)) break;
-  const particle = document.createElement('div');
-  particle.classList.add('particle');
-  particle.style.top = `${Math.random() * 100}vh`;
-  particle.style.left = `${Math.random() * 100}vw`;
-  particle.style.animationDelay = `${Math.random() * 10}s`;
-  particleContainer.appendChild(particle);
-}window.CP.exitedLoop(0);
-
-for (let i = 0; i < 300; i++) {if (window.CP.shouldStopExecution(1)) break;
-  const star = document.createElement('div');
-  star.classList.add('star');
-  star.style.top = `${Math.random() * 100}vh`;
-  star.style.left = `${Math.random() * 100}vw`;
-  starBackground.appendChild(star);
-}
-
-// Slider functionality
-window.CP.exitedLoop(1);const slides = document.querySelector('.slides');
-const slide = document.querySelectorAll('.slide');
-const prevBtn = document.getElementById('prevBtn');
-const nextBtn = document.getElementById('nextBtn');
-
-let index = 0;
-
-function showSlide(n) {
-  index += n;
-  if (index >= slide.length) {
-    index = 0;
-  }
-  if (index < 0) {
-    index = slide.length - 1;
-  }
-  slides.style.transform = 'translateX(' + -index * 100 + '%)';
-}
-
-prevBtn.addEventListener('click', () => showSlide(-1));
-nextBtn.addEventListener('click', () => showSlide(1));
-//# sourceURL=pen.js
-    </script> 
+ 
 </body>
 </html>
