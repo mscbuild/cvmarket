@@ -65,7 +65,17 @@ body {
   margin: 0 15px;
   transition: color 0.3s;
 }
-
+.container {
+  height: 100vh;
+  text-align: center;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2; /* Ensure content is above particles */
+}
 body:before {
   content: "";
   position: absolute;
