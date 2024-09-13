@@ -142,7 +142,7 @@ footer{
   font-size: 0.7em;  
   text-align: center;  
   color: #AFABA9;  background:rgba(0,0,0,0.4); 
-  width: 100vw;  
+  width: 100%;  
   position: absolute; 
   bottom: 0px;  
   padding:0.8em 0;
