@@ -19,7 +19,7 @@ body {
   position: relative;
 }
 header .container {
-  max-width: 1368px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 1rem 2rem;
 }
@@ -34,7 +34,7 @@ header .container .navbar .logo {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
-  font-weight: 700;
+  font-weight: 100;
 }
 header .container .navbar .nav-links {
   display: flex;
